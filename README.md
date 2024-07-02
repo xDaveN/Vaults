@@ -28,16 +28,22 @@ For example, OP_CAT can be used to combine different pieces of data, such as a t
 There are several technical proposals aimed at enabling Bitcoin vaults, each with unique features and mechanisms:
 
 ### OP_VAULT:
-#### Description: OP_VAULT is a proposed Bitcoin protocol upgrade specifically designed for creating vaults. It introduces a mechanism that enforces a time delay on withdrawals and allows users to set complex conditions for accessing their Bitcoin.
-#### Key Feature: Time-delayed withdrawals with customizable conditions.
-#### Benefit: Enhances security by providing a buffer period to react to unauthorized access attempts.
+#### Description:
+OP_VAULT is a proposed Bitcoin protocol upgrade specifically designed for creating vaults. It introduces a mechanism that enforces a time delay on withdrawals and allows users to set complex conditions for accessing their Bitcoin.
+#### Key Feature:
+Time-delayed withdrawals with customizable conditions.
+#### Benefit:
+Enhances security by providing a buffer period to react to unauthorized access attempts.
 
 ### OP_CAT:
-#### Description: OP_CAT is an opcode that concatenates two strings, allowing for more complex script constructions.
-#### Key Feature: Enables the creation of complex spending conditions by combining multiple pieces of data.
-#### Benefit: Supports advanced scripting capabilities necessary for vault functionalities.
+#### Description:
+OP_CAT is an opcode that concatenates two strings, allowing for more complex script constructions.
+#### Key Feature:
+Enables the creation of complex spending conditions by combining multiple pieces of data.
+#### Benefit:
+Supports advanced scripting capabilities necessary for vault functionalities.
 
 ### Other Bitcoin Improvement Proposals (BIPs):
-#### Description: Various BIPs propose different methods for enhancing Bitcoin security and functionality.
-#### Key Feature: Each BIP targets specific aspects of the Bitcoin protocol, such as transaction flexibility, script capabilities, and security enhancements.
-#### Benefit: Collectively, these proposals aim to provide a robust framework for implementing vault-like security features.
+Various BIPs propose different methods for enhancing Bitcoin security and functionality.
+Each BIP targets specific aspects of the Bitcoin protocol, such as transaction flexibility, script capabilities, and security enhancements.
+Collectively, these proposals aim to provide a robust framework for implementing vault-like security features.
