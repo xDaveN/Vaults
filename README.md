@@ -13,10 +13,10 @@ The enhanced security features of vaults, such as time delays and multi-signatur
 ## How would you use a vault if they existed today?
 If Bitcoin vaults were available today, here’s how one might use them:
 
-Set Up the Vault: First, you would create a vault by specifying the security conditions, such as a withdrawal delay (e.g., 24 hours) and any additional requirements like multi-signature authorization.
-Deposit Bitcoin: You would then transfer your Bitcoin into the vault. The vault holds the Bitcoin securely under the conditions you’ve set.
-Withdrawal Process: When you want to withdraw Bitcoin, you initiate a transaction. This transaction would not be immediate but subject to the preset delay period.
-Monitor and Secure: During the delay period, you monitor the transaction. If you initiated the withdrawal, you do nothing and allow the transaction to complete. If an unauthorized transaction is detected, you have the time to cancel it and take further security measures to protect your funds.
+First, you would create a vault by specifying the security conditions, such as a withdrawal delay (e.g., 24 hours) and any additional requirements like multi-signature authorization.
+You would then transfer your Bitcoin into the vault. The vault holds the Bitcoin securely under the conditions you’ve set.
+When you want to withdraw Bitcoin, you initiate a transaction. This transaction would not be immediate but subject to the preset delay period.
+During the delay period, you monitor the transaction. If you initiated the withdrawal, you do nothing and allow the transaction to complete. If an unauthorized transaction is detected, you have the time to cancel it and take further security measures to protect your funds.
 Using a vault in this way provides peace of mind by ensuring that there is always a buffer period to prevent unauthorized withdrawals.
 
 ## How does OP_CAT enable vaults?
